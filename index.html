@@ -26,8 +26,14 @@
             max-width: 480px;
             width: 100%;
             text-align: center;
-            padding: 35px 25px;
+            padding: 35px 25px 20px 25px;
             border-top: 6px solid #800020;
+            position: relative;
+        }
+        .logo {
+            width: 110px;
+            height: auto;
+            margin-bottom: 12px;
         }
         .welcome-badge {
             background-color: #fdf2f4;
@@ -51,7 +57,8 @@
         }
         p.subtitle {
             color: #666;
-            font-size: 14px;
+            font-size: 15px;
+            font-weight: 600;
             margin-bottom: 20px;
         }
         .info-box {
@@ -86,36 +93,49 @@
         .btn:hover {
             opacity: 0.9;
         }
-        .footer {
+        .footer-container {
             margin-top: 25px;
+            border-top: 1px solid #eee;
+            padding-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             font-size: 12px;
             color: #888;
-            border-top: 1px solid #eee;
-            padding-top: 15px;
+        }
+        .designer-credit {
+            font-style: italic;
+            font-weight: 600;
+            color: #555;
+            direction: ltr;
         }
     </style>
 </head>
 <body>
 
     <div class="card">
+        <!-- شعار جامعة الأزهر -->
+        <img src="https://i.postimg.cc/k5Dxkr40/Picsart-25-12-02-20-04-07-372.png" alt="شعار جامعة الأزهر" class="logo">
+
         <div class="welcome-badge">أهلاً بالدكاترة الجداد 👋</div>
         
         <h2>جامعة الأزهر بدمياط</h2>
         <h1>دعوة الطلاب المقبولين الجدد</h1>
-        <p class="subtitle">كلية الطب البشري</p>
+        <p class="subtitle">كلية الطب البشري • دفعة 2027</p>
 
         <div class="info-box">
             ألف ألف مبروك الانضمام للكلية! ❤️<br>
             عشان تدخل الجروبات الرسمية، ابعت <b>ورقة الترشيح</b> على البوت تحت وهندخلك تلقائيًا.
         </div>
 
-        <!-- استبدل الروابط بالروابط الخاصة بك -->
+        <!-- أزرار التليجرام -->
         <a href="https://t.me/Firstgrade33BOT" class="btn">🤖 إرسال ورقة الترشيح للبوت</a>
         <a href="https://t.me/+I7d36NCRaOE4MmY0" class="btn btn-secondary">📢 قناة الدفعة الرسمية</a>
         <a href="https://t.me/+Px9QZHWqCs05NmFk" class="btn btn-tertiary">📚 جروب الداتا والمصادر</a>
 
-        <div class="footer">
-            Faculty of Medicine • Al-Azhar University (Damietta)
+        <div class="footer-container">
+            <span>Faculty of Medicine • Al-Azhar</span>
+            <span class="designer-credit">By Ibrahim Gamal</span>
         </div>
     </div>
 
